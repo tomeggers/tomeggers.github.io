@@ -1,0 +1,65 @@
+/* portfolio-Header.css */
+.header {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+
+.nav-container {
+  background: rgba(255, 255, 255, 0.144);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 24px;
+  border: 1px solid rgba(206, 203, 203, 0.2);
+  box-shadow: 
+    0 4px 30px rgba(0, 0, 0, 0.1),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  padding: 4px;
+}
+
+.nav-glass {
+  display: flex;
+  gap: 4px;
+  padding: 8px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link {
+  padding: 12px 24px;
+  border-radius: 14px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  transition: all 0.3s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.nav-link.active {
+  background: rgba(255, 255, 255, 0.6);
+  font-weight: 600;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .nav-glass {
+    gap: 2px;
+    padding: 4px;
+  }
+  
+  .nav-link {
+    padding: 10px 16px;
+    font-size: 12px;
+  }
+}
