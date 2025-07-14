@@ -10,6 +10,7 @@ function Home() {
     { id: 'home', title: 'Home' },
     { id: 'about', title: 'About' },
     { id: 'projects', title: 'Projects' },
+    { id: 'skills', title: 'Skills' },
     { id: 'contact', title: 'Contact' }
   ];
 
@@ -102,6 +103,34 @@ function Home() {
                 </div>
                 </div>
                 </div>
+            </section>
+            <section id="skills" className="skills-section">
+              <h2 className="section-title">Skills</h2>
+              <p className="skills-intro">
+                My skills have been developed through university courses and personal projects which include:
+              </p>
+
+              <ul className="skills-grid">
+                <li>JavaScript</li>
+                <li>React + Vite</li>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>HTML & CSS</li>
+                <li>Git & GitHub</li>
+                <li>Responsive Design</li>
+                <li>SQL</li>
+              </ul>
+
+              <p className="skills-description">
+                Currently, I’m learning:
+              </p>
+
+              <ul className="learning-list">
+                <li>Cloud computing and AWS deployment</li>
+                <li>Machine learning and AI model development</li>
+                <li>Android app development using Kotlin</li>
+              </ul>
             </section>
 
 
