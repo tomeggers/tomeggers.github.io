@@ -3,6 +3,7 @@ import React from 'react'
 import '../portfolio-pages-css/home.css'
 import headshot from '../assets/Tom-suit.png'
 import beautylogo from '../assets/beautybyviktoria-logo.png'
+import golfcartlogo from '../assets/golfCartLegacy.PNG'
 
 function Home() {
   const sections = [
@@ -76,16 +77,17 @@ function Home() {
                 {/* Project 2 */}
                 <div className="project-card">
                 <img 
-                    src="https://via.placeholder.com/600x400" 
+                    src={golfcartlogo} 
                     alt="Golf Cart Legacy" 
-                    className="project-image"
+                    className="Golf-Cart-Legacy-image"
                 />
                 <div className="project-content">
                     <h3 className="project-title">Golf Cart Legacy</h3>
                     <p className="project-description">
                     A racing simulation game built with java and javafx and tested with JUnit. This project features a story line, AI opponents, and a variety of tracks to race on.
                     This project was a university project that I worked on with one other person which was a great experience to work on a larger project with someone else.
-                    I learned a lot about collaboration, version control, and project management during this project.
+                    I learned a lot about collaboration, version control, and project management during this project. Using JavaFX for the UI and JUnit for testing,
+                     we created a fun and engaging game that showcases my skills in game development.
                     </p>
                     <div className="project-tech">
                     <span className="tech-pill">Java</span>
@@ -93,10 +95,7 @@ function Home() {
                     <span className="tech-pill">JUnit</span>
                     </div>
                     <div className="project-links">
-                    <a href="#" className="project-link" target="_blank" rel="noopener noreferrer">
-                        <span>Live Demo</span> ↗
-                    </a>
-                    <a href="#" className="project-link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/nistorv/racing-game" className="project-link" target="_blank" rel="noopener noreferrer">
                         <span>View Code</span>
                     </a>
                     </div>
