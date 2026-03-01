@@ -17,7 +17,10 @@ export const PROJECTS = [
     description:
       'Android productivity app designed around a single philosophy: do the most important thing first. Built with custom task ranking logic to fight the natural instinct to do easy tasks instead of meaningful ones.',
     pills: ['Java', 'Android Studio', 'In Development'],
-    links: [{ label: 'GitHub', href: 'https://github.com/tomeggers' }],
+    links: [
+      { label: 'GitHub', href: 'https://github.com/tomeggers' },
+      { label: 'Privacy Policy', href: 'https://tomeggers.github.io/priorities-privacy.html' },
+    ],
   },
   {
     num: '03',
