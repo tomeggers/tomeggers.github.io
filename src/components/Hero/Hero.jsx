@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="hero-circle" />
 
       <div className="hero-content">
-        <p className="hero-tag">Software Developer — Christchurch, NZ</p>
+        <p className="hero-tag">Computer Science — Christchurch, NZ</p>
         <h1 className="hero-name">
           Tom<br /><em>Eggers</em>
         </h1>
@@ -15,7 +15,7 @@ export default function Hero() {
           <div className="hero-line" />
           <p>
             Computer Science student at the University of Canterbury.
-            I build things that are fast, thoughtful, and real — from
+            I build things that are fast, thoughtful, and real from
             booking platforms to mobile apps.
           </p>
         </div>
