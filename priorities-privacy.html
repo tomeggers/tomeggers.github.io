@@ -1,22 +1,101 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Priorities — Privacy Policy</title>
-    <link rel="stylesheet" href="/assets/index-tW-NadBv.css" /> <!-- optional, keeps your site style -->
-  </head>
-  <body>
-    <h1>Privacy Policy for Priorities — Task Manager</h1>
-    <p><strong>Last updated:</strong> 2 March 2026</p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Priorities</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500&family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #f9f9f9;
+      --text: #222;
+      --accent: #0077cc;
+      --mono: 'IBM Plex Mono', monospace;
+      --sans: 'Outfit', sans-serif;
+    }
 
+    body {
+      font-family: var(--sans);
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: var(--accent);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-weight: 500;
+      font-size: 1.8rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      padding: 2rem;
+    }
+
+    h2 {
+      font-weight: 500;
+      color: var(--accent);
+      margin-top: 2rem;
+    }
+
+    p {
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin: 3rem 0 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Privacy Policy — Priorities</h1>
+  </header>
+
+  <main>
+    <p><strong>Last updated:</strong> 2 March 2026</p>
+    
     <p>Priorities ("the app") is a task-management application that runs entirely on your device.</p>
 
     <h2>Data We Collect</h2>
     <p>None. The app does not collect, transmit, sell, or share any personal data.</p>
 
     <h2>Data Stored on Your Device</h2>
-    <p>Task titles, descriptions, due dates, priorities, time-spent records, and reminder times are stored locally in an SQLite database on your device. This data never leaves your device.</p>
+    <ul>
+      <li>Task titles, descriptions, due dates, priorities, time-spent records, and reminder times are stored locally in an SQLite database on your device.</li>
+      <li>This data never leaves your device.</li>
+    </ul>
 
     <h2>Permissions Used</h2>
     <ul>
@@ -34,5 +113,10 @@
 
     <h2>Contact</h2>
     <p>If you have questions, email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-  </body>
+  </main>
+
+  <footer>
+    &copy; 2026 Tom Eggers — All rights reserved
+  </footer>
+</body>
 </html>
